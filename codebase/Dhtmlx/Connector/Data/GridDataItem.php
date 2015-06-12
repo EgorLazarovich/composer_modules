@@ -1,10 +1,8 @@
 <?php
-
 namespace Dhtmlx\Connector\Data;
 
 /*! DataItem class for Grid component
 **/
-
 class GridDataItem extends DataItem {
 	protected $row_attrs;//!< hash of row attributes
 	protected $cell_attrs;//!< hash of cell attributes
