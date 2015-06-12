@@ -1,9 +1,11 @@
 <?php
 namespace Dhtmlx\Connector\DataStorage;
+use Dhtmlx\Connector\Tools\LogMaster;
+use \Exception;
 
 /*! SaSQL implementation of DataWrapper
 **/
-class SaSQLDBDataWrapper extends DBDataWrapper{
+class SaSQLDBDataWrapper extends DBDataWrapper {
     private $last_id=""; //id of previously inserted record
     private $insert_operation=false; //flag of insert operation
 

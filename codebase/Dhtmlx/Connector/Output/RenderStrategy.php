@@ -2,6 +2,7 @@
 namespace Dhtmlx\Connector\Output;
 use Dhtmlx\Connector\Data\DataItem;
 use Dhtmlx\Connector\Data\GridDataItem;
+use \Exception;
 
 class RenderStrategy {
 

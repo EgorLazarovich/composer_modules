@@ -1,13 +1,14 @@
 <?php
-
 namespace Dhtmlx\Connector\DataStorage;
 use Dhtmlx\Connector\DataStorage\ResultHandler\PDOResultHandler;
+use Dhtmlx\Connector\Tools\LogMaster;
+use \Exception;
 
 /*! Implementation of DataWrapper for PDO
 
 if you plan to use it for Oracle - use Oracle connection type instead
 **/
-class PDODBDataWrapper extends DBDataWrapper{
+class PDODBDataWrapper extends DBDataWrapper {
 	private $last_result;//!< store result or last operation
 
 	public function query($sql){

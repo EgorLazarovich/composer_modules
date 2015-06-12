@@ -1,10 +1,11 @@
 <?php
 namespace Dhtmlx\Connector\DataStorage;
-
+use Dhtmlx\Connector\Tools\LogMaster;
+use \Exception;
 
 /*! Implementation of DataWrapper for MySQL
 **/
-class OracleDBDataWrapper extends DBDataWrapper{
+class OracleDBDataWrapper extends DBDataWrapper {
     private $last_id=""; //id of previously inserted record
     private $insert_operation=false; //flag of insert operation
 

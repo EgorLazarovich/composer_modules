@@ -1,6 +1,7 @@
 <?php
-
 namespace Dhtmlx\Connector\Tools;
+use \Exception;
+
 /*! Class which allows to assign|fire events.
 */
 class EventMaster{

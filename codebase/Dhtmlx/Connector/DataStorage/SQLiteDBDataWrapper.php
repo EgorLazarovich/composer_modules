@@ -1,9 +1,11 @@
 <?php
 namespace Dhtmlx\Connector\DataStorage;
+use Dhtmlx\Connector\Tools\LogMaster;
+use \Exception;
 
 /*! SQLite implementation of DataWrapper
 **/
-class SQLiteDBDataWrapper extends DBDataWrapper{
+class SQLiteDBDataWrapper extends DBDataWrapper {
     protected $last_result;
     public function query($sql){
         LogMaster::log($sql);

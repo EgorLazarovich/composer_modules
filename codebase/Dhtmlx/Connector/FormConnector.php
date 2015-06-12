@@ -1,6 +1,6 @@
 <?php
-
 namespace Dhtmlx\Connector;
+use \Exception;
 
 /*! Connector class for dhtmlxForm
 **/

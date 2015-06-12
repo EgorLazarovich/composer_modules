@@ -1,9 +1,11 @@
 <?php
 namespace Dhtmlx\Connector\DataStorage;
+use Dhtmlx\Connector\Tools\LogMaster;
+use \Exception;
 
 /*! SQLSrv implementation of DataWrapper
 **/
-class SQLSrvDBDataWrapper extends DBDataWrapper{
+class SQLSrvDBDataWrapper extends DBDataWrapper {
     private $last_id=""; //!< ID of previously inserted record
     private $insert_operation=false; //!< flag of insert operation
     private $start_from=false; //!< index of start position

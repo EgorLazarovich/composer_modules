@@ -1,5 +1,7 @@
 <?php
 namespace Dhtmlx\Connector\DataStorage;
+use Dhtmlx\Connector\Tools\LogMaster;
+use \Exception;
 
 /*! Implementation of DataWrapper for ADO
 **/

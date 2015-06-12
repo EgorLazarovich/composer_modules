@@ -1,6 +1,6 @@
 <?php
-
 namespace Dhtmlx\Connector;
+use Dhtmlx\Connector\Tools\LogMaster;
 
 /*! Connector for the dhtmlxCombo
 **/

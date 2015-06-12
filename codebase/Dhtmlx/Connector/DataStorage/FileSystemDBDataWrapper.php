@@ -2,6 +2,7 @@
 namespace Dhtmlx\Connector\DataStorage;
 use Dhtmlx\Connector\DataStorage\TypeHandler\FileSystemTypeHandler;
 use Dhtmlx\Connector\DataStorage\ResultHandler\FileSystemResultHandler;
+use Dhtmlx\Connector\Tools\LogMaster;
 
 /*! Most execution time is a standart functions for workin with FileSystem: is_dir(), dir(), readdir(), stat()
 **/
