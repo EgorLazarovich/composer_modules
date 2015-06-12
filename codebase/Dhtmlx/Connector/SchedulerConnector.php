@@ -3,7 +3,7 @@ namespace Dhtmlx\Connector;
 
 /*! Connector class for dhtmlxScheduler
 **/
-class SchedulerConnector extends Connector{
+class SchedulerConnector extends Connector {
 
     protected $extra_output="";//!< extra info which need to be sent to client side
     protected $options=array();//!< hash of OptionsConnector

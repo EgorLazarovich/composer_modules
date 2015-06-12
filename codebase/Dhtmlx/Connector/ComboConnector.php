@@ -4,7 +4,7 @@ use Dhtmlx\Connector\Tools\LogMaster;
 
 /*! Connector for the dhtmlxCombo
 **/
-class ComboConnector extends Connector{
+class ComboConnector extends Connector {
     private $filter; //!< filtering mask from incoming request
     private $position; //!< position from incoming request
 

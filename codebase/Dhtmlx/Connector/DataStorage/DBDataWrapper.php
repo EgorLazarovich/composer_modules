@@ -1,5 +1,7 @@
 <?php
 namespace Dhtmlx\Connector\DataStorage;
+use Dhtmlx\Connector\Data\DataRequestConfig;
+use Dhtmlx\Connector\Event\SortInterface;
 use \Exception;
 
 abstract class DBDataWrapper extends DataWrapper {

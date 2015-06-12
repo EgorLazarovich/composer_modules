@@ -1,9 +1,11 @@
 <?php
-
 namespace Dhtmlx\Connector;
+use Dhtmlx\Connector\Data\DataConfig;
+use Dhtmlx\Connector\Data\DataRequestConfig;
+
 /*! Connector for the dhtmlxgrid
 **/
-class GridConnector extends Connector{
+class GridConnector extends Connector {
 
 	/*! constructor
 

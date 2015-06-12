@@ -3,7 +3,7 @@ namespace Dhtmlx\Connector;
 
 /*! Connector for dhtmlxTreeGrid
 **/
-class TreeGridConnector extends GridConnector{
+class TreeGridConnector extends GridConnector {
     protected $parent_name = 'id';
     protected $rootId = "0";
 

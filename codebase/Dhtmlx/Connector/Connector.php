@@ -3,6 +3,7 @@ namespace Dhtmlx\Connector;
 use Dhtmlx\Connector\Data\DataAction;
 use Dhtmlx\Connector\Data\DataConfig;
 use Dhtmlx\Connector\Data\DataRequestConfig;
+use Dhtmlx\Connector\Data\DataUpdate;
 use Dhtmlx\Connector\DataStorage\MySQLDBDataWrapper;
 use Dhtmlx\Connector\DataStorage\ArrayDBDataWrapper;
 use Dhtmlx\Connector\Tools\EventMaster;
@@ -13,6 +14,7 @@ use Dhtmlx\Connector\Output\OutputWriter;
 use Dhtmlx\Connector\XSSFilter\ConnectorSecurity;
 use Dhtmlx\Connector\Event\SortInterface;
 use Dhtmlx\Connector\Event\FilterInterface;
+use Dhtmlx\Connector\DataStorage\ArrayQueryWrapper;
 
 class Connector {
     protected $config;//DataConfig instance

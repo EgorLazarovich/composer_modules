@@ -1,10 +1,9 @@
 <?php
-
 namespace Dhtmlx\Connector;
 
 /*! Connector class for DataView
 **/
-class DataViewConnector extends Connector{
+class DataViewConnector extends Connector {
     /*! constructor
 
 		Here initilization of all Masters occurs, execution timer initialized

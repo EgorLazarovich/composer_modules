@@ -3,7 +3,7 @@ namespace Dhtmlx\Connector\DataProcessor;
 
 /*! DataProcessor class for Grid component
 **/
-class TreeGridDataProcessor extends GridDataProcessor{
+class TreeGridDataProcessor extends GridDataProcessor {
 
     function __construct($connector,$config,$request){
         parent::__construct($connector,$config,$request);

@@ -1,8 +1,7 @@
 <?php
-
 namespace Dhtmlx\Connector\Data;
 
-class JSONGanttDataItem extends GanttDataItem{
+class JSONGanttDataItem extends GanttDataItem {
     /*! return self as XML string
     */
     function to_xml(){

@@ -1,10 +1,9 @@
 <?php
-
 namespace Dhtmlx\Connector\Data;
 
 /*! DataItem class for DataView component
 **/
-class DataViewDataItem extends DataItem{
+class DataViewDataItem extends DataItem {
     /*! return self as XML string
     */
     function to_xml(){

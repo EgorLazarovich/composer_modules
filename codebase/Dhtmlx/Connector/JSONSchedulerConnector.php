@@ -1,5 +1,6 @@
 <?php
 namespace Dhtmlx\Connector;
+use Dhtmlx\Connector\Output\OutputWriter;
 
 class JSONSchedulerConnector extends SchedulerConnector {
 

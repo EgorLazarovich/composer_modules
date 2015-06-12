@@ -1,10 +1,9 @@
 <?php
-
 namespace Dhtmlx\Connector\Data;
 
 /*! DataItem class for Scheduler component
 **/
-class SchedulerDataItem extends DataItem{
+class SchedulerDataItem extends DataItem {
     /*! return self as XML string
     */
     function to_xml(){

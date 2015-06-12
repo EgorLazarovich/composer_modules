@@ -4,7 +4,7 @@ use \Exception;
 
 /*! Connector class for dhtmlxForm
 **/
-class FormConnector extends Connector{
+class FormConnector extends Connector {
 
     /*! constructor
 

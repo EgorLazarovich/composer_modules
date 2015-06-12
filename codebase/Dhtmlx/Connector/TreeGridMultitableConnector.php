@@ -1,7 +1,7 @@
 <?php
 namespace Dhtmlx\Connector;
 
-class TreeGridMultitableConnector extends TreeGridConnector{
+class TreeGridMultitableConnector extends TreeGridConnector {
 
     public function __construct($res,$type=false,$item_type=false,$data_type=false,$render_type=false){
         $data_type="TreeGridMultitableDataProcessor";

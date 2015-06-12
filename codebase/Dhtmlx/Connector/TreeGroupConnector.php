@@ -1,5 +1,4 @@
 <?php
-
 namespace Dhtmlx\Connector;
 
 class TreeGroupConnector extends TreeConnector {

@@ -1,7 +1,7 @@
 <?php
 namespace Dhtmlx\Connector;
 
-class DistinctOptionsConnector extends OptionsConnector {
+class JSONDistinctOptionsConnector extends JSONOptionsConnector {
     /*! render self
         process commands, return data as XML, not output data to stdout, ignore parameters in incoming request
         @return

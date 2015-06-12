@@ -3,7 +3,7 @@ namespace Dhtmlx\Connector\Data;
 
 /*! DataItem class for TreeGrid component
 **/
-class TreeGridDataItem extends GridDataItem{
+class TreeGridDataItem extends GridDataItem {
     private $kids=-1;//!< checked state
 
     function __construct($data,$config,$index){

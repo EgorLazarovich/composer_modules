@@ -1,5 +1,4 @@
 <?php
-
 namespace Dhtmlx\Connector;
 
 class GanttLinksConnector extends OptionsConnector {

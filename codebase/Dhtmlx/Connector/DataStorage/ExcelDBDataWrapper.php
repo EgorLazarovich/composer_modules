@@ -4,7 +4,7 @@ use Dhtmlx\Connector\DataStorage\ResultHandler\ExcelResultHandler;
 
 /*! Implementation of DataWrapper for Excel
 **/
-class ExcelDBDataWrapper extends DBDataWrapper{
+class ExcelDBDataWrapper extends DBDataWrapper {
     public $emptyLimit = 10;
     public function excel_data($points){
         $path = $this->connection;

@@ -1,6 +1,12 @@
 <?php
 namespace Dhtmlx\Connector;
 use Dhtmlx\Connector\Tools\LogMaster;
+use Dhtmlx\Connector\Tools\EventMaster;
+use Dhtmlx\Connector\Output\OutputWriter;
+use Dhtmlx\Connector\Event\SortInterface;
+use Dhtmlx\Connector\Event\FilterInterface;
+use Dhtmlx\Connector\DataStorage\ArrayDBDataWrapper;
+use Dhtmlx\Connector\DataStorage\ArrayQueryWrapper;
 
 class JSONGanttConnector extends GanttConnector {
 

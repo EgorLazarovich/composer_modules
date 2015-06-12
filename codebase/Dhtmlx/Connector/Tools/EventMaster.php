@@ -4,7 +4,7 @@ use \Exception;
 
 /*! Class which allows to assign|fire events.
 */
-class EventMaster{
+class EventMaster {
     private $events;//!< hash of event handlers
     private $master;
     private static $eventsStatic=array();

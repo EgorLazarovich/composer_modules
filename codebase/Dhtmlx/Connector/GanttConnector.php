@@ -1,5 +1,4 @@
 <?php
-
 namespace Dhtmlx\Connector;
 
 /*! Connector class for dhtmlxGantt

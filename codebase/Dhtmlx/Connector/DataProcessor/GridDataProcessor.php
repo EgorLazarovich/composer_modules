@@ -3,7 +3,7 @@ namespace Dhtmlx\Connector\DataProcessor;
 
 /*! DataProcessor class for Grid component
 **/
-class GridDataProcessor extends DataProcessor{
+class GridDataProcessor extends DataProcessor {
 
 	/*! convert incoming data name to valid db name
 		converts c0..cN to valid field names

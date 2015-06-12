@@ -1,8 +1,7 @@
 <?php
-
 namespace Dhtmlx\Connector;
 
-class KeyGridConnector extends GridConnector{
+class KeyGridConnector extends GridConnector {
     public function __construct($res,$type=false,$item_type=false,$data_type=false){
         if (!$item_type) $item_type="GridDataItem";
         if (!$data_type) $data_type="KeyGridDataProcessor";

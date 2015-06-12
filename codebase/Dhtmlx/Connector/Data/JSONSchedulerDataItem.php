@@ -1,5 +1,4 @@
 <?php
-
 namespace Dhtmlx\Connector\Data;
 
 class JSONSchedulerDataItem extends SchedulerDataItem {

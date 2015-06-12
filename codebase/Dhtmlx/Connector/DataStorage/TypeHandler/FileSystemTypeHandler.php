@@ -1,5 +1,4 @@
 <?php
-
 namespace Dhtmlx\Connector\DataStorage\TypeHandler;
 
 // singleton class for setting file types filter
@@ -23,7 +22,7 @@ class FileSystemTypeHandler {
 
     static function getInstance() {
         if (self::$instance == NULL) {
-            self::$instance = new FileSystemTypes();
+            self::$instance = new FileSystemTypeHandler();
         }
         return self::$instance;
     }

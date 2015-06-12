@@ -1,5 +1,4 @@
 <?php
-
 namespace Dhtmlx\Connector\DataStorage\ResultHandler;
 
 class ExcelResultHandler {

@@ -1,5 +1,4 @@
 <?php
-
 namespace Dhtmlx\Connector\Data;
 
 /*! DataItem class for dhxForm component

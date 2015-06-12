@@ -1,7 +1,7 @@
 <?php
 namespace Dhtmlx\Connector\DataProcessor;
 
-class TreeDataProcessor extends DataProcessor{
+class TreeDataProcessor extends DataProcessor {
 
     function __construct($connector,$config,$request){
         parent::__construct($connector,$config,$request);
